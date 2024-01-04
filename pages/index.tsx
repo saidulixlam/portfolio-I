@@ -5,6 +5,7 @@ import Rightside from '@/components/Rightside';
 import { motion } from "framer-motion";
 import Banner from '@/components/Banner';
 import About from '@/components/About';
+import Experience from '@/components/Experience';
 export default function Home() {
   return (
     <>
@@ -29,6 +30,7 @@ export default function Home() {
             className='lg:ml-40 h-[88vh] mx-auto p-4'>
             <Banner/>
             <About/>
+            <Experience/>
           </motion.div>
           <motion.div
             initial={{ opacity: 0 }}

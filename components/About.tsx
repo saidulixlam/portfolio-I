@@ -3,6 +3,8 @@ import { SiRedux, SiBootstrap, SiTailwindcss, SiPostman, SiFirebase, SiNpm } fro
 import { DiJavascript } from "react-icons/di";
 import { VscGithubInverted } from "react-icons/vsc";
 import { AiFillThunderbolt } from "react-icons/ai";
+import Image from "next/image";
+import profile from "@/public/assets/images/profile.png";
 
 const About = () => {
     return (
@@ -11,7 +13,7 @@ const About = () => {
                 <span className="text-base md:text-lg text-textGreen mr-2">#</span>
                 About me
             </h2>
-            <div className="mt-8 flex flex-col lgl:flex-row gap-16">
+            <div className="mt-8 flex flex-col lgl:flex-row gap-12">
                 <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
                     <p>Greetings! I'm Saidul, a budding front-end developer driven by a deep passion for shaping and constructing
                         responsive websites. Embarking on my web development journey two years ago, I deliberately chose this path.
@@ -22,48 +24,54 @@ const About = () => {
                         Here are few <span className="text-textGreen" >technologies</span> I have been working with recently :
                     </p>
                     <ul className="max-w-[450px] text-sm font-titLeFont grid grid-cols-2 gap-2 mt-6">
-                    <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                            JavaScript <p className="text-textGreen" ><DiJavascript/></p>
+                        <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
+                            JavaScript <p className="text-textGreen" ><DiJavascript /></p>
                         </li>
                         <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                            React <p className="text-textGreen" ><FaReact/></p>
+                            React <p className="text-textGreen" ><FaReact /></p>
                         </li>
                         <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                            Redux <p className="text-textGreen" ><SiRedux/></p>
+                            Redux <p className="text-textGreen" ><SiRedux /></p>
                         </li>
                         <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                            NodeJs <p className="text-textGreen" ><SiNpm/></p>
+                            NodeJs <p className="text-textGreen" ><SiNpm /></p>
                         </li>
                         <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                            Tailwind <p className="text-textGreen" ><SiTailwindcss/></p>
+                            Tailwind <p className="text-textGreen" ><SiTailwindcss /></p>
                         </li>
                         <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                            Java <p className="text-textGreen" ><FaJava/></p>
+                            Java <p className="text-textGreen" ><FaJava /></p>
                         </li>
                         <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                            Bootstrap <p className="text-textGreen" ><SiBootstrap/></p>
+                            Bootstrap <p className="text-textGreen" ><SiBootstrap /></p>
                         </li>
                         <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                            Html <p className="text-textGreen" ><FaHtml5/></p>
+                            Html <p className="text-textGreen" ><FaHtml5 /></p>
                         </li>
                         <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                           CSS <p className="text-textGreen" ><FaCss3/></p>
+                            CSS <p className="text-textGreen" ><FaCss3 /></p>
                         </li>
                         <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                            firebase <p className="text-textGreen" ><SiFirebase/></p>
+                            firebase <p className="text-textGreen" ><SiFirebase /></p>
                         </li>
                         <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                            Github <p className="text-textGreen" ><VscGithubInverted/></p>
+                            Github <p className="text-textGreen" ><VscGithubInverted /></p>
                         </li>
                         <li className="flex items-center gap-2"><span className="text-textGreen" ><AiFillThunderbolt /></span>
-                            Postman <p className="text-textGreen" ><SiPostman/></p>
+                            Postman <p className="text-textGreen" ><SiPostman /></p>
                         </li>
-                        
                     </ul>
-                    
                 </div>
-                <div>
-                    Yaha image lagega 
+                <div className="w-full lg:w-1/3 mr-14 h-70 relative group">
+                    <div className="bg-text-textGreen p-4 lg:p-6 rounded-full shadow-md hover:shadow-textGreen">
+                        <div className="overflow-hidden rounded-full h-70 w-70 object-cover">
+                            <Image
+                                className="w-full h-full rounded-full transition-transform transform group-hover:scale-105"
+                                src={profile}
+                                alt="profile"
+                            />
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
