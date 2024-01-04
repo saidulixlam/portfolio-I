@@ -13,19 +13,19 @@ const Cts = () => {
             <p>
                 Aug 2022 - March 2023
             </p>
-            <ul className="my-2 ">
-                <li className="text-base flex gap-2 text-textDark mr-10 p-4" >
+            <ul className="mt-6 flex flex-col gap-3">
+                <li className="text-base flex gap-2 text-textDark " >
                     <span className="text-textGreen"><TiArrowForward />
                     </span>
                     As an Engineer Trainee at Cognizant, my primary focus was on problem-solving. While development wasn't the central aspect of 
                     my position, I gained valuable exposure to teamwork and actively contributed to collaborative projects. This experience refined
                      my skills in both teamwork and problem-solving.
                 </li>
-                <li className="text-base flex gap-2 text-textDark mr-10 p-4" >
+                <li className="text-base flex gap-2 text-textDark " >
                     <span className="text-textGreen"><TiArrowForward />
                     </span>
                     In addition to my assigned responsibilities, I took the initiative to independently explore and learn more about development,
-                     showcasing my commitment to continuous learning and professional growth.
+                            showcasing my commitment to continuous learning and professional growth.
                 </li>
             </ul>
 

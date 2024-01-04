@@ -1,4 +1,4 @@
-import { logo } from "@/public/assets";
+import logo1 from "@/public/assets/images/logo1.png";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -11,7 +11,7 @@ const Navbar = () => {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.5 }}
             >
-                <Image className="w-14" src={logo} alt="logo" />
+                <Image className="w-14" src={logo1} alt="logo" />
             </motion.div>
             <div className="hidden mdl:inline-flex items-center gap-7">
                 <ul className="flex text-[13px] gap-7">

@@ -11,16 +11,16 @@ const Sharp = () => {
                 Web dev Intern <span className="text-textGreen tracking-wide">@Sharpener</span>
             </h3>
             <p>
-                Aug 2022 - March 2023
+                June 2022 - Present
             </p>
-            <ul className="my-2 ">
-                <li className="text-base flex gap-2 text-textDark mr-10 p-4" >
+            <ul className="mt-6 flex flex-col gap-3">
+                <li className="text-base flex gap-2 text-textDark " >
                     <span className="text-textGreen"><TiArrowForward />
                     </span>
                     Designed and implemented responsive, real-time applications using a full-stack approach with technologies including React,
                     Redux, and Node.js, while continuously expanding my expertise in the dynamic landscape of front-end development.
                 </li>
-                <li className="text-base flex gap-2 text-textDark mr-10 p-4" >
+                <li className="text-base flex gap-2 text-textDark " >
                     <span className="text-textGreen"><TiArrowForward />
                     </span>
                     Acquired proficiency in a diverse set of technologies encompassing web development, React, Redux, Node.js, Firebase, Postman, 

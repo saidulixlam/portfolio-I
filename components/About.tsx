@@ -62,17 +62,18 @@ const About = () => {
                         </li>
                     </ul>
                 </div>
-                <div className="w-full lg:w-1/3 mr-14 h-70 relative group">
-                    <div className="bg-text-textGreen p-4 lg:p-6 rounded-full shadow-md hover:shadow-textGreen">
-                        <div className="overflow-hidden rounded-full h-70 w-70 object-cover">
+                {/* <div className="w-full lg:w-1/3 mr-14 relative group"> */}
+                    <div className="bg-text-textGreen mdl:w-1/3 p-6 mr-12 sm:mr-0 rounded-full ">
+                        <div className="overflow-hidden rounded-full h-70 md:w-60 w-full object-cover shadow-md p-4 hover:shadow-textGreen">
                             <Image
-                                className="w-full h-full rounded-full transition-transform transform group-hover:scale-105"
+                                className="w-full h-full rounded-full object-cover transition-transform transform group-hover:scale-105"
                                 src={profile}
                                 alt="profile"
                             />
                         </div>
                     </div>
-                </div>
+                {/* </div> */}
+
             </div>
         </section>
     )

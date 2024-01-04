@@ -3,7 +3,7 @@ import Cts from "@/components/works/Cts";
 import Sharp from "./works/Sharp";
 import Trv from "./works/Trv";
 const Experience =() => {
-    const [cts,setCts]=useState(false);
+    const [cts,setCts]=useState(true);
     const [sharp,setSharp]=useState(false);
     const [trv,setTrv]=useState(false);
 
@@ -24,7 +24,7 @@ const Experience =() => {
         setTrv(true);
     }
     return (
-        <section id="experience" className="max-w-container mx-auto py-10 lgl:py-24 px-4">
+        <section id="experience" className="max-w-container mx-auto lgl:px-20 py-24 mb-10">
             <h2 className="font-titLeFont text-2xl font-semibold flex items-center">
                 <span className="text-base md:text-lg text-textGreen mr-2">#</span>
                 Where I have worked <span className="mb-4 text-textGreen"> &nbsp;____________</span>
@@ -53,7 +53,7 @@ const Experience =() => {
                         TriviumEdu
                     </li>
                 </ul>
-                <div>
+                <div className="mr-16 pr-2">
                 {cts && <Cts/>}
                 {sharp && <Sharp/>}
                 {trv && <Trv/>}
