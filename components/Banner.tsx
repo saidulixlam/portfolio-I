@@ -8,15 +8,15 @@ function Banner() {
                 initial={{ y: 10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.7 }}
-                className="text-4xl lgl:text-6xl font-titLeFont font-semibold flex flex-col">
-                Saidul Islam.
-                <span className="lgl:text-5xl text-textDark mt-2 lgl:mt-4">Building web for the future</span>
+                className="text-4xl  lgl:text-6xl font-titLeFont font-semibold flex flex-col">
+                Saidul Islam
+                <span className="lgl:text-3xl sm:text-2xl text-textDark mt-2 lgl:mt-4">Crafting the Web of the Future.</span>
             </motion.h1>
             <motion.p 
             initial={{ y: 10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }}
-            className="text-base md:max-w-[650px] text-textDark font-medium">
+            className="text-base text-left md:max-w-[650px] text-textDark font-medium">
                 {" "}
                 I am an aspiring web developer with hands-on skills in React and front-end technologies. My journey has been marked by continuous 
                 learning and valuable experiences, all with the goal of becoming a better person. This pursuit of personal growth is not just a desire;
