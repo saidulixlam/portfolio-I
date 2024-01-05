@@ -9,7 +9,7 @@ import profile from "@/public/assets/images/profile.png";
 const About = () => {
     return (
         <section id="about" className="max-w-containerSmall py-10 lgl:py-32 flex-col gap-8">
-            <h2 className="font-titLeFont text-2xl font-semibold flex items-center">
+            <h2 className="font-titLeFont text-3xl font-semibold flex items-center">
                 <span className="text-base md:text-lg text-textGreen mr-2">#</span>
                 About me
             </h2>

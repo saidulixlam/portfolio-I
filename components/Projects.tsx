@@ -9,7 +9,7 @@ const Projects = () => {
         <section className="max-w-container mx-auto lgl:px-20 py-24 mt-10 grid gap-8" id="projects">
     
 
-            <h2 className="font-titLeFont text-2xl font-semibold flex items-center">
+            <h2 className="font-titLeFont text-3xl font-semibold flex items-center">
                 <span className="text-base md:text-lg text-textGreen mr-2">#</span>
                 Some of My Works<span className="mb-4 text-textGreen"> &nbsp;____________</span>
             </h2>

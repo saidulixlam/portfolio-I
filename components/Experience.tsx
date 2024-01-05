@@ -25,7 +25,7 @@ const Experience =() => {
     }
     return (
         <section id="experience" className="max-w-container mx-auto lgl:px-20 py-24 mb-10">
-            <h2 className="font-titLeFont text-2xl font-semibold flex items-center">
+            <h2 className="font-titLeFont text-3xl font-semibold flex items-center">
                 <span className="text-base md:text-lg text-textGreen mr-2">#</span>
                 Where I have worked <span className="mb-4 text-textGreen"> &nbsp;____________</span>
             </h2>
