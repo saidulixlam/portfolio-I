@@ -32,7 +32,7 @@ export const theme = {
     }
   },
 };
-export const plugins = [];
+export const plugins = [require('tailwind-scrollbar')];
 
 
 // /** @type {import('tailwindcss').Config} */ 
