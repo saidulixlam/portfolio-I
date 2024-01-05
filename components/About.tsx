@@ -15,7 +15,7 @@ const About = () => {
             </h2>
             <div className="mt-8 flex flex-col lgl:flex-row gap-12">
                 <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
-                    <p>Greetings! I'm Saidul, a budding front-end developer driven by a deep passion for shaping and constructing
+                    <p>Greetings! I am Saidul, a budding front-end developer driven by a deep passion for shaping and constructing
                         responsive websites. Embarking on my web development journey two years ago, I deliberately chose this path.
                         Since that pivotal decision, my days have been marked by an unwavering commitment to perpetual learning,
                         constant creation, and ongoing refinement.

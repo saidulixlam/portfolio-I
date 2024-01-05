@@ -17,10 +17,10 @@ function Banner() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }}
             className="text-base text-left md:max-w-[650px] text-textDark font-medium">
-                {" "}
+               
                 I am an aspiring web developer with hands-on skills in React and front-end technologies. My journey has been marked by continuous 
                 learning and valuable experiences, all with the goal of becoming a better person. This pursuit of personal growth is not just a desire;
-                 it's a commitment, reflected in my dedication to honing my skills and contributing meaningfully to the world of web development.{" "}
+                 it is a commitment, reflected in my dedication to honing my skills and contributing meaningfully to the world of web development.
                 <a href="https://www.linkedin.com/in/saidul-islam-49427b218" target="_blank">
                     <span className="text-textGreen inline-flex relative cursor-pointer h-7 overflow-x-hidden group">Learn more..</span>
                 </a>
