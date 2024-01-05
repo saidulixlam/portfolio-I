@@ -62,7 +62,7 @@ const About = () => {
                         </li>
                     </ul>
                 </div>
-                {/* <div className="w-full lg:w-1/3 mr-14 relative group"> */}
+                
                     <div className="bg-text-textGreen mdl:w-1/3 p-6 mr-12 sm:mr-0 rounded-full ">
                         <div className="overflow-hidden rounded-full h-70 md:w-60 w-full object-cover shadow-md p-4 hover:shadow-textGreen">
                             <Image
@@ -72,7 +72,7 @@ const About = () => {
                             />
                         </div>
                     </div>
-                {/* </div> */}
+               
 
             </div>
         </section>
