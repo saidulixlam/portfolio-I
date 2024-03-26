@@ -8,7 +8,6 @@ const Projects = () => {
     return (
         <section className="max-w-container mx-auto lgl:px-20 py-24 mt-10 grid gap-8" id="projects">
     
-
             <h2 className="font-titLeFont text-3xl font-semibold flex items-center">
                 <span className="text-base md:text-lg text-textGreen mr-2">#</span>
                 Some of My Works<span className="mb-4 text-textGreen"> &nbsp;____________</span>
@@ -17,7 +16,7 @@ const Projects = () => {
                 <div className="flex flex-col xl:flex-row gap-6">
                     <a
                         className="w-full xl:w-1/2 h-auto relative group"
-                        href="https://remail-341c0.web.app" target="_blank">
+                        href="https://m-box-six.vercel.app/" target="_blank">
                         <div>
                             <Image
                                 className="w-full h-full object-contain"
@@ -55,6 +54,63 @@ const Projects = () => {
                                 className="hover:text-textGreen duration-300 "
                                 href="https://github.com/saidulixlam/ReEmail
                              "
+                                target="_blank"
+                            >
+                                <VscGithubInverted />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className="w-full flex flex-col items-center justify-center gap-28 my-12">
+                <div className="flex flex-col xl:flex-row gap-6">
+                    <a
+                        className="w-full xl:w-1/2 h-auto relative group"
+                        href="https://shoppy-v1.vercel.app/" target="_blank">
+                        <div>
+                            <Image
+                                className="w-full h-full object-contain"
+                                src={ecommerce} alt="ecommerce" />
+                        </div>
+
+                    </a>
+                    <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-center text-right xl:-ml-16 z-10 ">
+                        <p className="font-titleFont text-textGreen text-sm tracking-wide">
+                            Featured project
+                        </p>
+                        <h3 className="text-2xl font-bold">Ecommerce app</h3>
+                        <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md text-left">
+                            E-commerce website is an
+                            application that provides
+                            &nbsp;<span className="text-textGreen">authentication</span>&nbsp;
+                            and then access to users of their
+                            own cart.&nbsp; <span className="text-textGreen">Context-Api</span> is used to
+                            manage the app-wise state.
+                        </p>
+                        <ul className="text-xs md:text-sm font-titLeFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+                            <li>
+                                ReactJs
+                            </li>
+
+                            <li>
+                                Bootstrap
+                            </li>
+                            <li>
+                                Firebase
+                            </li>
+                            <li>
+                                JavaScript
+                            </li>
+                            <li>
+                                Html & CSS
+                            </li>
+                        </ul>
+                        <div className="text-2xl flex gap-4">
+                            <a
+                                className="hover:text-textGreen duration-300 "
+                                href="https://github.com/saidulixlam/Ecom-firebase"
                                 target="_blank"
                             >
                                 <VscGithubInverted />
@@ -114,62 +170,6 @@ const Projects = () => {
                                 className="hover:text-textGreen duration-300 "
                                 href="https://github.com/saidulixlam/ExpenseApp"
 
-                                target="_blank"
-                            >
-                                <VscGithubInverted />
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div className="w-full flex flex-col items-center justify-center gap-28 my-12">
-                <div className="flex flex-col xl:flex-row gap-6">
-                    <a
-                        className="w-full xl:w-1/2 h-auto relative group"
-                        href="https://ecommercev1-a01a9.web.app" target="_blank">
-                        <div>
-                            <Image
-                                className="w-full h-full object-contain"
-                                src={ecommerce} alt="ecommerce" />
-                        </div>
-
-                    </a>
-                    <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-center text-right xl:-ml-16 z-10 ">
-                        <p className="font-titleFont text-textGreen text-sm tracking-wide">
-                            Featured project
-                        </p>
-                        <h3 className="text-2xl font-bold">Ecommerce app</h3>
-                        <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md text-left">
-                            E-commerce website is an
-                            application that provides
-                            &nbsp;<span className="text-textGreen">authentication</span>&nbsp;
-                            and then access to users of their
-                            own cart.&nbsp; <span className="text-textGreen">Context-Api</span> is used to
-                            manage the app-wise state.
-                        </p>
-                        <ul className="text-xs md:text-sm font-titLeFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
-                            <li>
-                                ReactJs
-                            </li>
-
-                            <li>
-                                Bootstrap
-                            </li>
-                            <li>
-                                Firebase
-                            </li>
-                            <li>
-                                JavaScript
-                            </li>
-                            <li>
-                                Html & CSS
-                            </li>
-                        </ul>
-                        <div className="text-2xl flex gap-4">
-                            <a
-                                className="hover:text-textGreen duration-300 "
-                                href="https://github.com/saidulixlam/Ecom-firebase"
                                 target="_blank"
                             >
                                 <VscGithubInverted />
